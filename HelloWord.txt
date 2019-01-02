@@ -1,9 +1,16 @@
 class Hello
 {
-	public static void main(String s[])
+
+	static void method()
 	{
 		System.out.println("hello world");
-	return 0;
+	}
+
+
+	public static void main(String s[])
+	{
+		
+	method();
 
 	}
 }
