@@ -1,7 +1,7 @@
 class Hello
 {
 
-	static void method()
+		void method()
 	{
 		System.out.println("hello world");
 	}
@@ -9,8 +9,8 @@ class Hello
 
 	public static void main(String s[])
 	{
-		
-	method();
+	Hello w=new Hello();	
+	w.method();
 
 	}
 }
